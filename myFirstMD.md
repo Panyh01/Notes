@@ -62,6 +62,9 @@ div[0].onclick=function(){
   alert("Hello World!");
 };
 ```
+    //缩进四个空格，以代码块形式呈现内容
+    $var=hello;
+    echo "$var world!";
 
 ## 行内代码
 
@@ -138,3 +141,34 @@ recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.
 ***
 ___
 
+## 任务列表
+
+```markdown
+- [x] 背10个英语单词
+- [x] 看一部电影
+- [x] 阅读15分钟
+- [ ] 跑步3公里
+- [ ] 购物
+```
+
+- [x] 背10个英语单词
+- [x] 看一部电影
+- [x] 阅读15分钟
+- [ ] 跑步3公里
+- [ ] 购物
+
+## 表格
+
+```markdown
+姓名 | 爱好
+--- | ---    //短横杠区分表格首行
+菲菲 | 阅读
+唐海 | 打羽毛球
+千月 | 唱歌
+```
+
+姓名 | 爱好
+--- | ---
+菲菲 | 阅读
+唐海 | 打羽毛球
+千月 | 唱歌
