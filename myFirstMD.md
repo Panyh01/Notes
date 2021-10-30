@@ -1,23 +1,21 @@
 ## 标题
 ```markdown
 # 一级标题 {#my_id}
-## 二级标题 {.class1}
+## 二级标题
 ### 三级标题
 #### 四级标题
 ##### 五级标题
 ###### 六级标题
-
-注:属性选择器是MPE扩展的特性，不一定兼容
 ```
 # 一级标题 {#my_id}
-## 二级标题 {.class1}
+## 二级标题
 ### 三级标题
 #### 四级标题
 ##### 五级标题
 ###### 六级标题
-
-注：上面的`#id`成功了，但是`.class`失败...
-___
+***
+注：设置`.class`是MPE的特性，GitHub暂不支持  
+***
 ## 正文
 正文直接输入即可  
 
@@ -26,7 +24,10 @@ ___
 隔行换行：空一行即可
 
 ## 代码块
-一对```可以插入代码块，不同语言在第一行末尾加上语言名称  
+一对```可以插入代码块，不同语言在第一行末尾加上语言名称可以显示不同类型的语法高亮
+
+代码块支持语言：`1c`, `abnf`, `accesslog`, `actionscript`, `ada`, `apache`, `applescript`, `arduino`, `armasm`, `asciidoc`, `aspectj`, `autohotkey`, `autoit`, `avrasm`, `awk`, `axapta`, `bash`, `basic`, `bnf`, `brainfuck`, `cal`, `capnproto`, `ceylon`, `clean`, `clojure`, `clojure-repl`, `cmake`, `coffeescript`, `coq`, `cos`, `cpp`, `crmsh`, `crystal`, `cs`, `csp`, `css`, `d`, `dart`, `delphi`, `diff`, `django`, `dns`, `dockerfile`, `dos`, `dsconfig`, `dts`, `dust`, `ebnf`, `elixir`, `elm`, `erb`, `erlang`, `erlang-repl`, `excel`, `fix`, `flix`, `fortran`, `fsharp`, `gams`, `gauss`, `gcode`, `gherkin`, `glsl`, `go`, `golo`, `gradle`, `groovy`, `haml`, `handlebars`, `haskell`, `haxe`, `hsp`, `htmlbars`, `http`, `hy`, `inform7`, `ini`, `irpf90`, `java`, `javascript`, `json`, `julia`, `kotlin`, `lasso`, `ldif`, `leaf`, `less`, `lisp`, `livecodeserver`, `livescript`, `llvm`, `lsl`, `lua`, `makefile`, `markdown`, `mathematica`, `matlab`, `maxima`, `mel`, `mercury`, `mipsasm`, `mizar`, `mojolicious`, `monkey`, `moonscript`, `n1ql`, `nginx`, `nimrod`, `nix`, `nsis`, `objectivec`, `ocaml`, `openscad`, `oxygene`, `parser3`, `perl`, `pf`, `php`, `pony`, `powershell`, `processing`, `profile`, `prolog`, `protobuf`, `puppet`, `purebasic`, `python`, `q`, `qml`, `r`, `rib`, `roboconf`, `rsl`, `ruby`, `ruleslanguage`, `rust`, `scala`, `scheme`, `scilab`, `scss`, `smali`, `smalltalk`, `sml`, `sqf`, `sql`, `stan`, `stata`, `step21`, `stylus`, `subunit`, `swift`, `taggerscript`, `tap`, `tcl`, `tex`, `thrift`, `tp`, `twig`, `typescript`, `vala`, `vbnet`, `vbscript`, `vbscript-html`, `verilog`, `vhdl`, `vim`, `x86asm`, `xl`, `xml`, `xquery`, `yaml`, `zephir`
+
 ```java
 //Java代码块
 Public class Test{
@@ -98,5 +99,12 @@ recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.
 
 ## 分割线
 ```
+--- 横杠x3
+*** 星号x3
+___ 下划线x3
 
+注：不保证有效……😅
 ```
+---
+***
+___
