@@ -5,7 +5,8 @@
 🙉 手写真的好慢好累好困鸭~  
 
 [第一个MarkDown (づ｡◕ᴗᴗ◕｡)づ](./myFirstMD.md)  
-<hr>
+
+***
 
 #### MarkDown
 [初识 MarkDown - GitHub 手册](https://guides.github.com/features/mastering-markdown/)  
