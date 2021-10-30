@@ -109,9 +109,9 @@ div[0].onclick=function(){
 
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-## 超链接
+### 超链接
 
-1. 自动生成  
+1. ``<https://github.com>``  
   a. <https://github.com>  
 2. ``[GitHub](https://github.com)``  
   a. [GitHub](https://github.com)
