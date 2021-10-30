@@ -131,7 +131,7 @@ recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.
 - 星号 x 3 ``***``  
 - 下划线 x 3 ``___``  
 
-注：不要在同一段落内使用（隔行使用！）
+💚注：不要在同一段落内使用（隔行使用！）
 
 ---
 
