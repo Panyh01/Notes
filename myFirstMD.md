@@ -41,7 +41,7 @@
 
 一对```可以插入代码块，不同语言在第一行末尾加上语言名称可以显示不同类型的语法高亮
 
-代码块支持语言：`1c`, `abnf`, `accesslog`, `actionscript`, `ada`, `apache`, `applescript`, `arduino`, `armasm`, `asciidoc`, `aspectj`, `autohotkey`, `autoit`, `avrasm`, `awk`, `axapta`, `bash`, `basic`, `bnf`, `brainfuck`, `cal`, `capnproto`, `ceylon`, `clean`, `clojure`, `clojure-repl`, `cmake`, `coffeescript`, `coq`, `cos`, `cpp`, `crmsh`, `crystal`, `cs`, `csp`, `css`, `d`, `dart`, `delphi`, `diff`, `django`, `dns`, `dockerfile`, `dos`, `dsconfig`, `dts`, `dust`, `ebnf`, `elixir`, `elm`, `erb`, `erlang`, `erlang-repl`, `excel`, `fix`, `flix`, `fortran`, `fsharp`, `gams`, `gauss`, `gcode`, `gherkin`, `glsl`, `go`, `golo`, `gradle`, `groovy`, `haml`, `handlebars`, `haskell`, `haxe`, `hsp`, `htmlbars`, `http`, `hy`, `inform7`, `ini`, `irpf90`, `java`, `javascript`, `json`, `julia`, `kotlin`, `lasso`, `ldif`, `leaf`, `less`, `lisp`, `livecodeserver`, `livescript`, `llvm`, `lsl`, `lua`, `makefile`, `markdown`, `mathematica`, `matlab`, `maxima`, `mel`, `mercury`, `mipsasm`, `mizar`, `mojolicious`, `monkey`, `moonscript`, `n1ql`, `nginx`, `nimrod`, `nix`, `nsis`, `objectivec`, `ocaml`, `openscad`, `oxygene`, `parser3`, `perl`, `pf`, `php`, `pony`, `powershell`, `processing`, `profile`, `prolog`, `protobuf`, `puppet`, `purebasic`, `python`, `q`, `qml`, `r`, `rib`, `roboconf`, `rsl`, `ruby`, `ruleslanguage`, `rust`, `scala`, `scheme`, `scilab`, `scss`, `smali`, `smalltalk`, `sml`, `sqf`, `sql`, `stan`, `stata`, `step21`, `stylus`, `subunit`, `swift`, `taggerscript`, `tap`, `tcl`, `tex`, `thrift`, `tp`, `twig`, `typescript`, `vala`, `vbnet`, `vbscript`, `vbscript-html`, `verilog`, `vhdl`, `vim`, `x86asm`, `xl`, `xml`, `xquery`, `yaml`, `zephir`
+[*代码块支持语言 - 关键词*]((https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
 
 ```java
 //Java代码块
@@ -62,9 +62,17 @@ div[0].onclick=function(){
   alert("Hello World!");
 };
 ```
+
     //缩进四个空格，以代码块形式呈现内容
     $var=hello;
     echo "$var world!";
+
+````markdown
+//使用四重反引号来显示三重反引号
+```
+Hello World!
+```
+````
 
 ## 行内代码
 
@@ -228,3 +236,20 @@ ___
 [^2]: 脚注2  
 [^note]: 这个脚注略显不同  
 
+## 数学表达式
+
+- 行内显示  
+  - ``$...$``
+  - ``\(...\)``  
+- 表达式块  
+  - ``$$...$$``
+  - ``\[...\]``
+  - ` ```math`
+
+$f(x)=sin(x)+12$  
+
+$$
+\sum_{i=0}^N\int_{a}^{b}g(t,i)\text{d}t
+$$
+
+💔注：看不懂 ┐(´∇｀)┌
