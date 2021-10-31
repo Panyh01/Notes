@@ -45,7 +45,7 @@
 
 一对```可以插入代码块，不同语言在第一行末尾加上语言名称可以显示不同类型的语法高亮
 
-[*代码块支持语言 - 关键词*]((https://github.com/github/linguist/blob/master/lib/linguist/languages.yml))
+[*代码块支持语言 - 关键词*](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml)
 
 ```java
 //Java代码块
