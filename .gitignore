@@ -2,6 +2,7 @@
 *.class
 bin/
 gen/
+*模板*.md
 
 # Windows thumbnail db
 Thumbs.db
