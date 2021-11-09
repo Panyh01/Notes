@@ -133,6 +133,16 @@ Hello World!
 
 ## 引用
 
+```markdown
+> Muchos años después, frente al pelotón 
+de fusilamiento, el coronel Aureliano 
+Buendía había de recordar aquella tarde 
+remota en que su padre lo llevó a conocer el hielo.  
+
+> 多年以后，面对行刑队，奥雷里亚诺·布恩迪亚上校将会
+回想起父亲带他去见识冰块的那个遥远的下午。
+```
+
 马尔克斯在《百年孤独》的开头这样写道：  
 
 > Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de
