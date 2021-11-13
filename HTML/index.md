@@ -4,4 +4,7 @@
 
 [01.Bootstrap基础](./01.Bootstrap基础.md)
 
-[02.xxx](./02.xxx.md)
+[02.栅格系统](./02.栅格系统.md)
+
+***
+🍀About [**Echo Pan**](https://github.com/echopan)
