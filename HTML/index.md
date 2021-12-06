@@ -6,5 +6,7 @@
 
 [02.栅格系统](./02.栅格系统.md)
 
+[03.canvas标签](./03.canvas标签.md)
+
 ***
 🍀About [**Echo Pan**](https://github.com/echopan)
