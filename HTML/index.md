@@ -8,5 +8,7 @@
 
 [03.canvas标签](./03.canvas标签.md)
 
+[04.canvas标签2](./04.canvas标签2.md)
+
 ***
 🍀About [**Echo Pan**](https://github.com/echopan)
