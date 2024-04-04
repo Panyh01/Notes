@@ -21,15 +21,14 @@
 
 ***
 
+### 英语
+
+[英文摘抄](./Excerpt%20in%20English/index.md)
+
+***
 ### 笔记
 
-[PHP 笔记](./PHP/index.md)  
-
-[JSP 笔记](./JSP/index.md)
-
-[HTML 笔记](./HTML/index.md)
-
-[SSM 笔记](./SSM/index.md)
+[PHP](./PHP/index.md)&emsp;[JSP](./JSP/index.md)&emsp;[HTML](./HTML/index.md)&emsp;[SSM](./SSM/index.md)
 
 ***
 
