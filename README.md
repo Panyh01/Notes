@@ -23,7 +23,7 @@
 
 ### 英语
 
-[英文摘抄](./Excerpt%20in%20English/index.md)
+[英文摘抄](./Excerpt_in_English/index.md)
 
 ***
 ### 笔记
